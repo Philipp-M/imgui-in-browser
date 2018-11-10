@@ -17,6 +17,7 @@ else:
 env.StaticLibrary('imgui',source=[
     'external/imgui.cpp',
     'external/imgui_demo.cpp',
+    'external/imgui_widgets.cpp',
     'external/imgui_draw.cpp'
 ])
 env.StaticLibrary('core', source=[
